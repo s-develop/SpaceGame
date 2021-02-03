@@ -16,6 +16,10 @@
 		26F5EEDF25C857B60030FBA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26F5EEDE25C857B60030FBA4 /* Assets.xcassets */; };
 		26F5EEEA25C857B70030FBA4 /* Space_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5EEE925C857B70030FBA4 /* Space_GameTests.swift */; };
 		26F5EEF525C857B70030FBA4 /* Space_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5EEF425C857B70030FBA4 /* Space_GameUITests.swift */; };
+		26F5EF0825C858B90030FBA4 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26F5EF0525C858B90030FBA4 /* torpedo.mp3 */; };
+		26F5EF0925C858B90030FBA4 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 26F5EF0625C858B90030FBA4 /* Starfield.sks */; };
+		26F5EF0A25C858B90030FBA4 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 26F5EF0725C858B90030FBA4 /* explosion.mp3 */; };
+		26F5EF1225C910F00030FBA4 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 26F5EF1125C910F00030FBA4 /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		26F5EEF025C857B70030FBA4 /* Space GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F5EEF425C857B70030FBA4 /* Space_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space_GameUITests.swift; sourceTree = "<group>"; };
 		26F5EEF625C857B70030FBA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26F5EF0525C858B90030FBA4 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		26F5EF0625C858B90030FBA4 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		26F5EF0725C858B90030FBA4 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		26F5EF1125C910F00030FBA4 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				26F5EED925C857B40030FBA4 /* GameViewController.swift */,
 				26F5EEDB25C857B40030FBA4 /* Main.storyboard */,
 				26F5EEDE25C857B60030FBA4 /* Assets.xcassets */,
+				26F5EF0725C858B90030FBA4 /* explosion.mp3 */,
+				26F5EF0625C858B90030FBA4 /* Starfield.sks */,
+				26F5EF1125C910F00030FBA4 /* Explosion.sks */,
+				26F5EF0525C858B90030FBA4 /* torpedo.mp3 */,
 				26F5EEE025C857B60030FBA4 /* Info.plist */,
 			);
 			path = "Space Game";
@@ -234,8 +246,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26F5EF0925C858B90030FBA4 /* Starfield.sks in Resources */,
+				26F5EF0825C858B90030FBA4 /* torpedo.mp3 in Resources */,
 				26F5EEDD25C857B40030FBA4 /* Main.storyboard in Resources */,
 				26F5EED425C857B40030FBA4 /* GameScene.sks in Resources */,
+				26F5EF0A25C858B90030FBA4 /* explosion.mp3 in Resources */,
+				26F5EF1225C910F00030FBA4 /* Explosion.sks in Resources */,
 				26F5EEDF25C857B60030FBA4 /* Assets.xcassets in Resources */,
 				26F5EED625C857B40030FBA4 /* Actions.sks in Resources */,
 			);
